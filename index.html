@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="authen.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+        
+        <!--<form id="login" method="get" action="login.php">-->
+        <form>
+            
+            <label><b>User Name
+                </b>
+            </label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username">
+            <br><br>
+            <label><b>Password
+                </b>
+            </label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" >
+            <br><br>
+            <button id="btn">Alert</button>
+            <br><br>
+    
+            <button id="btn" onclick="valid()">Click me</button>
+                        
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            Forgot <a href="#">Password</a>
+            
+        </form>
+    </div>
+    
+</body>
+
+</html>
